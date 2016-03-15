@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--shape 为绘制形状，具体大小看控件-->
+<!--solid表示远的填充色，stroke则代表远的边框线，所以两者结合可以实现带边缘的圆-->
+<!--也可直接加上size样式
+     <size android:width="20dp" android:height="20dp"/>
+-->
+<shape android:shape="oval"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <stroke android:width="2.0px" android:color="#ff530000" />
+    <solid android:color="#ffffffff" />
+</shape><!-- From: file:/E:/android-code/TopNews/javaapkcomWelcome/src/main/res/drawable/bg_head_pressed.xml -->

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/title_bar"
+    style="@style/title_bar_style" >
+
+    <ImageView
+        android:id="@+id/btn_category"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:background="@drawable/btn_common"
+        android:padding="0.0dip"
+        android:src="@drawable/btn_category"
+        android:visibility="gone" />
+
+    <FrameLayout
+        android:id="@+id/top_head_container"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:paddingLeft="10.0dip"
+        android:paddingRight="10.0dip" >
+<!--左侧 人头 图标，按下圆周边缘显示黑色-->
+        <!-- layout_width，layout_height 设置为相同值，则在背景形状设置中，椭圆便为正圆-->
+        <ImageView
+            android:id="@+id/top_head"
+            android:layout_width="@dimen/head_size"
+            android:layout_height="@dimen/head_size"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/bg_head"
+            android:padding="2.0dip"
+            android:src="@drawable/default_round_head"
+            android:scaleType="fitXY" />
+    </FrameLayout>
+<!--头像 右上角 小圆圈：或许用在用户登陆后，有消息时，提示作用。默认情况下，此圆圈不显示-->
+    <TextView
+        android:id="@+id/top_left_count"
+        style="@style/top_update_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="-17.0dip"
+        android:layout_marginTop="5.0dip"
+        android:layout_toRightOf="@id/top_head_container"
+        android:background="@drawable/badge_titlebar"
+        android:visibility="gone" />
+<!--头标 右侧的两个人的样式。-->
+    <ImageView
+        android:id="@+id/top_more"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:scaleType="centerInside"
+        android:src="@drawable/right_drawer" />
+<!--同上 两个小人头 右上角圆圈提示，默认情况下 不显示-->
+    <TextView
+        android:id="@+id/top_right_count"
+        style="@style/top_update_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="8.0dip"
+        android:layout_marginTop="5.0dip"
+        android:background="@drawable/badge_titlebar"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/title_click_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:paddingLeft="13.0dip" >
+
+        <FrameLayout
+            android:id="@+id/title_parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true" >
+<!--今日头条 采用图片显示，也可采用下方文本框样式显示。-->
+            <ImageView
+                android:id="@+id/title_recent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/title" />
+
+            <TextView
+                android:id="@+id/title"
+                style="@style/title_text_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingBottom="1.5dip"
+                android:paddingLeft="6.0dip"
+                android:paddingRight="6.0dip"
+                android:visibility="gone" />
+        </FrameLayout>
+<!--刷新箭头-->
+        <ImageView
+            android:id="@+id/top_refresh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/title_parent"
+            android:padding="3.0dip"
+            android:src="@drawable/refreshicon_titlebar" />
+<!--进度条怎么用，还在思考-->
+        <ProgressBar
+            android:id="@+id/top_progress"
+            style="?android:attr/progressBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/title_parent"
+            android:indeterminateOnly="true"
+            android:minHeight="13.0dip"
+            android:minWidth="13.0dip"
+            android:visibility="invisible" />
+
+        <ProgressBar
+            android:id="@+id/top_progress_night"
+            style="?android:attr/progressBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/title_parent"
+            android:indeterminateOnly="true"
+            android:minHeight="13.0dip"
+            android:minWidth="13.0dip"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+</RelativeLayout><!-- From: file:/E:/android-code/TopNews/javaapkcomWelcome/src/main/res/layout/main_head.xml -->

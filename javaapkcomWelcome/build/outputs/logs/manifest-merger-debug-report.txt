@@ -1,0 +1,98 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\android-code\TopNews\javaapkcomWelcome\src\main\AndroidManifest.xml:2:1-49:12
+	package
+		ADDED from E:\android-code\TopNews\javaapkcomWelcome\src\main\AndroidManifest.xml:3:5-26
+		INJECTED from E:\android-code\TopNews\javaapkcomWelcome\src\main\AndroidManifest.xml
+		INJECTED from E:\android-code\TopNews\javaapkcomWelcome\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from E:\android-code\TopNews\javaapkcomWelcome\src\main\AndroidManifest.xml:5:5-30
+	android:versionCode
+		ADDED from E:\android-code\TopNews\javaapkcomWelcome\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from E:\android-code\TopNews\javaapkcomWelcome\src\main\AndroidManifest.xml
+		INJECTED from E:\android-code\TopNews\javaapkcomWelcome\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\android-code\TopNews\javaapkcomWelcome\src\main\AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from E:\android-code\TopNews\javaapkcomWelcome\src\main\AndroidManifest.xml:7:5-9:41
+MERGED from [TopNews:library_SlidingMenu:unspecified] E:\android-code\TopNews\javaapkcomWelcome\build\intermediates\exploded-aar\TopNews\library_SlidingMenu\unspecified\AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		ADDED from E:\android-code\TopNews\javaapkcomWelcome\src\main\AndroidManifest.xml:9:9-38
+		INJECTED from E:\android-code\TopNews\javaapkcomWelcome\src\main\AndroidManifest.xml
+		INJECTED from E:\android-code\TopNews\javaapkcomWelcome\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from E:\android-code\TopNews\javaapkcomWelcome\src\main\AndroidManifest.xml:8:9-34
+		INJECTED from E:\android-code\TopNews\javaapkcomWelcome\src\main\AndroidManifest.xml
+		INJECTED from E:\android-code\TopNews\javaapkcomWelcome\src\main\AndroidManifest.xml
+application
+ADDED from E:\android-code\TopNews\javaapkcomWelcome\src\main\AndroidManifest.xml:11:5-39:19
+	android:label
+		ADDED from E:\android-code\TopNews\javaapkcomWelcome\src\main\AndroidManifest.xml:15:9-41
+	android:allowBackup
+		ADDED from E:\android-code\TopNews\javaapkcomWelcome\src\main\AndroidManifest.xml:13:9-35
+	android:icon
+		ADDED from E:\android-code\TopNews\javaapkcomWelcome\src\main\AndroidManifest.xml:14:9-38
+	android:theme
+		ADDED from E:\android-code\TopNews\javaapkcomWelcome\src\main\AndroidManifest.xml:16:9-40
+	android:name
+		ADDED from E:\android-code\TopNews\javaapkcomWelcome\src\main\AndroidManifest.xml:12:9-43
+activity#com.topnews.Welcome
+ADDED from E:\android-code\TopNews\javaapkcomWelcome\src\main\AndroidManifest.xml:18:9-26:20
+	android:label
+		ADDED from E:\android-code\TopNews\javaapkcomWelcome\src\main\AndroidManifest.xml:20:13-45
+	android:name
+		ADDED from E:\android-code\TopNews\javaapkcomWelcome\src\main\AndroidManifest.xml:19:13-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from E:\android-code\TopNews\javaapkcomWelcome\src\main\AndroidManifest.xml:21:13-25:29
+action#android.intent.action.MAIN
+ADDED from E:\android-code\TopNews\javaapkcomWelcome\src\main\AndroidManifest.xml:22:17-69
+	android:name
+		ADDED from E:\android-code\TopNews\javaapkcomWelcome\src\main\AndroidManifest.xml:22:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\android-code\TopNews\javaapkcomWelcome\src\main\AndroidManifest.xml:24:17-77
+	android:name
+		ADDED from E:\android-code\TopNews\javaapkcomWelcome\src\main\AndroidManifest.xml:24:27-74
+activity#com.topnews.MainActivity
+ADDED from E:\android-code\TopNews\javaapkcomWelcome\src\main\AndroidManifest.xml:27:9-28:20
+	android:name
+		ADDED from E:\android-code\TopNews\javaapkcomWelcome\src\main\AndroidManifest.xml:27:19-58
+activity#com.topnews.ChannelActivity
+ADDED from E:\android-code\TopNews\javaapkcomWelcome\src\main\AndroidManifest.xml:29:9-30:20
+	android:name
+		ADDED from E:\android-code\TopNews\javaapkcomWelcome\src\main\AndroidManifest.xml:29:19-61
+activity#com.topnews.DetailsActivity
+ADDED from E:\android-code\TopNews\javaapkcomWelcome\src\main\AndroidManifest.xml:31:9-32:20
+	android:name
+		ADDED from E:\android-code\TopNews\javaapkcomWelcome\src\main\AndroidManifest.xml:31:19-61
+activity#com.topnews.CityListActivity
+ADDED from E:\android-code\TopNews\javaapkcomWelcome\src\main\AndroidManifest.xml:33:9-34:20
+	android:name
+		ADDED from E:\android-code\TopNews\javaapkcomWelcome\src\main\AndroidManifest.xml:33:19-62
+activity#com.topnews.SettingsActivity
+ADDED from E:\android-code\TopNews\javaapkcomWelcome\src\main\AndroidManifest.xml:35:9-36:20
+	android:name
+		ADDED from E:\android-code\TopNews\javaapkcomWelcome\src\main\AndroidManifest.xml:35:19-62
+activity#com.topnews.ImageShowActivity
+ADDED from E:\android-code\TopNews\javaapkcomWelcome\src\main\AndroidManifest.xml:37:9-38:20
+	android:name
+		ADDED from E:\android-code\TopNews\javaapkcomWelcome\src\main\AndroidManifest.xml:37:19-63
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from E:\android-code\TopNews\javaapkcomWelcome\src\main\AndroidManifest.xml:41:5-79
+	android:name
+		ADDED from E:\android-code\TopNews\javaapkcomWelcome\src\main\AndroidManifest.xml:41:22-76
+uses-permission#android.permission.INTERNET
+ADDED from E:\android-code\TopNews\javaapkcomWelcome\src\main\AndroidManifest.xml:42:5-67
+	android:name
+		ADDED from E:\android-code\TopNews\javaapkcomWelcome\src\main\AndroidManifest.xml:42:22-64
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from E:\android-code\TopNews\javaapkcomWelcome\src\main\AndroidManifest.xml:44:5-84
+	android:name
+		ADDED from E:\android-code\TopNews\javaapkcomWelcome\src\main\AndroidManifest.xml:44:22-81
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\android-code\TopNews\javaapkcomWelcome\src\main\AndroidManifest.xml:46:5-81
+	android:name
+		ADDED from E:\android-code\TopNews\javaapkcomWelcome\src\main\AndroidManifest.xml:46:22-78
+uses-permission#android.permission.VIBRATE
+ADDED from E:\android-code\TopNews\javaapkcomWelcome\src\main\AndroidManifest.xml:48:5-65
+	android:name
+		ADDED from E:\android-code\TopNews\javaapkcomWelcome\src\main\AndroidManifest.xml:48:22-63
